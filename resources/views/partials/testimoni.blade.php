@@ -1,5 +1,5 @@
 <!-- portofolio -->
-<section class="tb-150-color">
+<section class="tb-150-color" >
     <div class="container tb-70">
         <h2 class="mb-5 fw-bold text-center text-uppercase">testimoni</h2>
         <div class="testimoni-slider">

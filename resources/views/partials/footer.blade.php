@@ -3,8 +3,8 @@
       <!--Content before waves-->
       <div class="inner-header block">
         <div class="container py-4">
-          <h2 class="fw-bold mt-4 fst-italic ">Desainmurah.id</h1>
-          <h5 class="fst-italic">#RajanyaDesainRumah</h5>
+          <h2 class="fw-bold mt-4 fst-italic ">Dokterrumah.com</h1>
+          {{-- <h5 class="fst-italic">#RajanyaDesainRumah</h5> --}} 
           <hr class="border border-light border-2 opacity-50">
         </div>
         <!-- menu footer only for lg  -->
@@ -45,7 +45,7 @@
                             <img src="https://abrisgrup.com/wp-content/uploads/2023/08/merchant-15526284081280px-BNI_logo.svg_.png" alt="bank-bni" class="img-fluid img-responsive animate" width="80" height="30">
                           </a>
                         </div>
-                      </div>
+                      </div> 
     
                       
                       <div class="col">
@@ -68,35 +68,29 @@
                   
                   
                   <div class="col-lg-3 text-start">
-                    <h5 class="mt-4 text-uppercase">Layanan Jasa Desain Arsitek</h5>
-                    <a href="/jasa-desain-rumah-mewah" class="nav-link">Desain Rumah Mewah</a> 
-                    <a href="/jasa-desain-rumah-minimalis" class="nav-link">Desain Rumah Minimalis</a>
-                    <a href="/jasa-desain-rumah-modern" class="nav-link">Desain Rumah Modern</a>
-                    <a href="/jasa-desain-gedung-kantor" class="nav-link">Desain Gedung Kantor</a>
-                    <a href="/jasa-kolam-koi" class="nav-link">Desain Kolam Koi</a>
-                    <a href="/jasa-desain-mall" class="nav-link">Desain Mall</a>
-                    <a href="/custom-desain" class="nav-link">Custom</a>
+                    <h5 class="mt-4 text-uppercase">Layanan Jasa</h5>
+                    <a href="{{ route('guest.layanan.jasa.arsitek') }}" class="nav-link">Jasa Desain Arsitek</a>
+                    <a href="{{ route('guest.layanan.jasa.bangun') }}" class="nav-link">Jasa Bangun</a>
                   </div>
     
                   
                   <div class="col-lg-3 text-start">
                     <h5 class="mt-4 text-uppercase">Informasi</h5>
-                    <a href="/harga-desain" class="nav-link">Harga Jasa Desain</a>
-                    <a href="/harga-jasa-bangun" class="nav-link">Harga Jasa Bangun</a>
-                    <a href="/karir" class="nav-link">Karir</a>
-                    <a href="/kontak-kami" class="nav-link">Kontak Kami</a>
+                    <a href="{{ route('guest.harga.jasa.desain') }}" class="nav-link">Harga Jasa Desain</a>
+                    <a href="{{ route('guest.harga.jasa.bangun') }}" class="nav-link">Harga Jasa Bangun</a>
+                    <a href="{{ route('guest.karir') }}" class="nav-link">Karir</a>
+                    <a href="{{ route('guest.kontak.kami') }}" class="nav-link">Kontak Kami</a>
                     <a href="{{ route('portofolio.desain') }}" class="nav-link">Portofolio Desain</a>
-                    <a href="/tentang-kami" class="nav-link">Tentang Kami</a> 
                   </div>
     
                   
                   <div class="col-lg-3 text-start">
                     <h5 class="mt-4 text-uppercase">Alamat</h5>
                     <a href="#" class="nav-link">Jl. Panji Pulangjiwo No.1A, Krajan, Sutojayan, kec. Pakisaji, Kabupaten Malang, Jawa Timur 65162</a>
-                    <h5 class="text-uppercase mt-4">Follow Us</h5>
+                    {{-- <h5 class="text-uppercase mt-4">Follow Us</h5>
                     <a href="#" target="_blank" class="text-light"><i class="bi bi-instagram fs-4"></i></a>
                     <a href="#" target="_blank" class="text-light"><i class="bi bi-facebook fs-4 mx-3"></i></a>
-                    <a href="#" target="_blank" class="text-light"><i class="bi bi-twitter fs-4"></i></a>
+                    <a href="#" target="_blank" class="text-light"><i class="bi bi-twitter fs-4"></i></a> --}}
                   </div>
                 </div>
               </div>  
@@ -150,7 +144,7 @@
     <!--Content starts-->
     <div class=" mt-3 text-center content">
       <p class="mt-5">Member of <a href="https://abrisgrup.com" class="text-decoration-none text-primary" target="_blank">ABRIS GROUP</a></p>
-      <p>&copy 2023</p>
+      <p>&copy 2024</p>
     </div>
     <!--Content ends-->
   

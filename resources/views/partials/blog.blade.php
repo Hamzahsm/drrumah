@@ -1,5 +1,5 @@
 <!-- layanan jasa -->
-<section class="tb-150-color">
+<section class="tb-150-color" >
     <div class="container tb-70">
         <h2 class="fw-bold text-center text-uppercase mb-5">BERITA</h2>
             <div class="blog-section"> 

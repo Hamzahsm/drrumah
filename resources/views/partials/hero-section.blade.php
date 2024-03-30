@@ -1,7 +1,7 @@
     <!-- box alert only for lg -->
 	<div class="d-none d-lg-block">
         <!-- testing owl carousel -->
-        <section class="top-50">
+        <section>
             <div class="owl-carousel owl-theme">
                 <!-- item per slider -->
                 <div class="item">
@@ -30,7 +30,7 @@
 
     <!-- box alert only for sm -->
 	<div class="d-block d-lg-none" >
-        <section class="top-50">
+        <section>
             <div class="owl-carousel owl-theme">
                 <!-- item per slider -->
                 <div class="item">

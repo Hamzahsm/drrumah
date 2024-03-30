@@ -96,4 +96,9 @@ Route::get('portofolio-desain', [GuestController::class, 'portofolio'])->name('p
 Route::get('artikel/{id}', [GuestController::class, 'artikelShow'])->name('guest.artikel.show');
 Route::get('cari-artikel', [GuestController::class, 'cariArtikel'])->name('guest.artikel.search');
 Route::get('writer-artikel/{id}', [GuestController::class, 'writerArtikel'])->name('guest.writer.artikel'); 
-
+Route::get('harga-jasa-desain', [GuestController::class, 'hargaJasaDesain'])->name('guest.harga.jasa.desain');
+Route::get('harga-jasa-bangun', [GuestController::class, 'hargaJasaBangun'])->name('guest.harga.jasa.bangun');
+Route::get('karir', [GuestController::class, 'karir'])->name('guest.karir');
+Route::get('kontak-kami', [GuestController::class, 'contactUs'])->name('guest.kontak.kami');
+Route::get('layanan-jasa-desain-arsitek', [GuestController::class, 'layananArsitek'])->name('guest.layanan.jasa.arsitek');
+Route::get('layanan-jasa-bangun', [GuestController::class, 'layananBangun'])->name('guest.layanan.jasa.bangun');

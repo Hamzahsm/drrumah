@@ -20,8 +20,8 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand fw-bold fst-italic" href="{{ route('feed.home') }}">
-                    DRUMAH
+                <a class="navbar-brand fw-bold fst-italic text-uppercase" href="{{ route('feed.home') }}">
+                    Dokterrumah
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -73,9 +73,9 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-4" style="background-image : url(https://abrisgrup.com/wp-content/plugins/loginpress/img/minimalist.jpg);">
             @yield('content')
-        </main>
+        </main> 
     </div>
 </body>
 </html>

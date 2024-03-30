@@ -78,7 +78,7 @@
             <!-- price 2 paket gold-->
             <div class="col-lg-3 p-3">
                 <div class="border rounded">
-                    <h4 class="text-center fw-bold p-3 bg-warning text-uppercase text-white">Paket Silver</h4>
+                    <h4 class="text-center fw-bold p-3 bg-warning text-uppercase text-white">Paket Gold</h4>
                     <h4 class="text-center">Rp 50rb / M<sup>2</sup></h4>
                     <table class="table table-bordered mt-3">
                         <tbody>
@@ -217,7 +217,7 @@
             <!-- price 3 paket diamond -->
             <div class="col-lg-3 p-3">
                 <div class="border rounded shadow-lg">
-                    <h4 class="text-center fw-bold p-3 bg-primary text-uppercase text-white">Paket Silver</h4>
+                    <h4 class="text-center fw-bold p-3 btn-gradient text-uppercase text-white">Paket Diamond</h4>
                     <h4 class="text-center">Rp 40rb / M<sup>2</sup></h4>
                     <table class="table table-bordered mt-3">
                         <tbody>

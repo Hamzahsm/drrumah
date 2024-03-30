@@ -1,13 +1,17 @@
-<!-- pricelist jasa bangun -->
-<section class="top-150" data-aos="fade-up" data-aos-delay="100">
+@extends('layouts.pages')
+@section('content')
+<section class="top-150" data-aos="fade-up" data-aos-duration="100">
     <div class="container">
-        <h2 class="mb-5 text-center mb-5 fw-bold text-uppercase">Pricelist Jasa Bangun</h2>
+        <h1 class="text-center fw-bold text-uppercase">Harga Jasa Bangun</h1>
+        <p class="fw-bold text-center fst-italic mb-5">Dokterrumah.com</p>
+
+        <!-- tabel harga -->
         <div class="row">
             <!-- pricelist 1 -->
             <div class="col-lg-4 p-3">
                 <div class="border rounded p-3">
                     <h4 class="text-uppercase fw-bold mb-3">paket basic</h4>
-                    <h5>Rp 3.5jt / M<sup>2</sup></h5>
+                    <h5 class="text-uppercase">Rp 3.5jt/ M<sup>2</sup></h5>
                     <hr class="border border-primary border-2 opacity-50">
                     <ul class="mt-4 list-unstyled">
                         <li><h6><i class="bi bi-house-door text-primary"></i> Pondasi</h6></li>
@@ -104,40 +108,40 @@
             </div>
  
             <!-- pricelist 2 -->
-            <div class="col-lg-4 p-3">
-                <div class="border rounded p-3 shadow-lg btn-gradient">
+            <div class="col-lg-4 p-3 "> 
+                <div class="border rounded p-3 shadow-lg btn-gradient text-white">
                     <h4 class="text-uppercase fw-bold mb-3">paket standard</h4>
-                    <h5>Rp 3.75 Jt / m<sup>2</sup></h5>
+                    <h5 class="text-uppercase">Rp 3.75jt/ M<sup>2</sup></h5>
                     <hr class="border border-danger border-2 opacity-50">
                     <ul class="mt-4 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Pondasi</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Pondasi</h6></li>
                         <li class="tx-yellow">Batu Kali</li>
                         <li class="tx-yellow">Footplate</li>
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Struktur Bangunan</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Struktur Bangunan</h6></li>
                         <li class="tx-yellow">Struktur Beton Bertulang SNI</li>
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Dinding</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Dinding</h6></li>
                         <li class="tx-yellow">Bata Merah (Alternatif 1)</li>
                         <li class="tx-yellow">Bata Ringan (Alternatif 2)</li>
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Keramik Lantai</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Keramik Lantai</h6></li>
                         <li class="tx-yellow">Granit Ex. China</li>
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Keramik Lantai & Dinding Kamar Mandi</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Keramik Lantai & Dinding Kamar Mandi</h6></li>
                         <li class="tx-yellow">Keramik Ex. China</li>
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Kusen & Daun Pintu</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Kusen & Daun Pintu</h6></li>
                         <li class="tx-yellow">Kusen Aluminium Alixindo (Alternatif 1)</li>
                         <li class="tx-yellow">Kusen Aluminium Alixindo (Alternatif 2)</li>
                         <li class="tx-yellow">Daun Pintu Aluminium Alixindo (Alternatif 1)</li>
@@ -149,13 +153,13 @@
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Kerangka & Penutup Atap</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Kerangka & Penutup Atap</h6></li>
                         <li class="tx-yellow">Kerangka Atap Baja Ringan (Alternatif 1)</li>
                         <li class="tx-yellow">Kerangka Atap Baja Ringan (Alternatif 1)</li>
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Aksesoris Pintu & Jendela</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Aksesoris Pintu & Jendela</h6></li>
                         <li class="tx-yellow">Hendel Pintu Geser (Ex China)</li>
                         <li class="tx-yellow">Roller / Rel Pintu Geser (Ex China)</li>
                         <li class="tx-yellow">Hendel Pintu (Ex China)</li>
@@ -168,7 +172,7 @@
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Sanitary</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Sanitary</h6></li>
                         <li class="tx-yellow">Floor Drain (Ex China)</li>
                         <li class="tx-yellow">Roof Drain (Ex China)</li>
                         <li class="tx-yellow">Kitchen Sink (Ex China)</li>
@@ -185,7 +189,7 @@
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-white fw-bold"></i> Instalasi Listrik</h6></li>
+                        <li><h6><i class="bi bi-house-door text-white"></i> Instalasi Listrik</h6></li>
                         <li class="tx-yellow">Stop Kontak (Ex China)</li>
                         <li class="tx-yellow">Stop Kontak (Ex China)</li>
                         <li class="tx-yellow">Fitting Lampu (Ex China)</li>
@@ -208,16 +212,16 @@
             <div class="col-lg-4 p-3">
                 <div class="border rounded p-3">
                     <h4 class="text-uppercase fw-bold mb-3">paket premium</h4>
-                    <h5>Rp 4 Jt / m<sup>2</sup></h5>
+                    <h5 class="text-uppercase">Rp 4jt/ M<sup>2</sup></h5>
                     <hr class="border border-primary border-2 opacity-50">
                     <ul class="mt-4 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-primary fw-bold"></i> Pondasi</h6></li>
+                        <li><h6><i class="bi bi-house-door text-primary"></i> Pondasi</h6></li>
                         <li class="t-yellow">Batu Kali</li>
                         <li class="t-yellow">Footplate</li>
                     </ul>
                     <hr>
                     <ul class="mt-5 list-unstyled">
-                        <li><h6><i class="bi bi-house-door text-primary fw-bold"></i> Struktur Bangunan</h6></li>
+                        <li><h6><i class="bi bi-house-door text-primary"></i> Struktur Bangunan</h6></li>
                         <li class="t-yellow">Struktur Beton Bertulang SNI</li>
                     </ul>
                     <hr>
@@ -316,4 +320,42 @@
             </div>
         </div>
     </div>
+
+    <div class="tb-150-color" data-aos="fade-up" data-aos-duration="100">
+        <div class="container tb-70">
+            <form action="#" method="get" id="formJasaBangun" onsubmit="return false">
+                <div class="cont_order">
+                    <legend class="mb-3 text-uppercase fs-2 fw-bold text-center">hitung biaya jasa bangun</legend>
+                    <p class="mb-3 text-center">Fitur dibawah ini memudahkan untuk menghitung biaya jasa bangun rumah</p>
+    
+                    <!-- panjang rumah -->
+                    <label for="panjang" class="form-label mt-3">Panjang(m)</label>
+                    <input type="number" class="form-control" id="panjang" onchange="calculateTotal()" required>
+    
+                    <!-- lebar rumah -->
+                    <label for="lebar" class="form-label mt-3">Lebar(m)</label>
+                    <input type="number" class="form-control" id="lebar" onchange="calculateTotal()" required>
+    
+                    <!-- pilih paket -->
+                    <label for="pilihPaket" class="form-label mt-3">Pilih Paket </label>
+                    <select name="pilihPaket" id="pilihPaket" class="form-select" onchange="calculateTotal()" required>
+                        <option value="none">Pilih</option>
+                        <option value="basic">Paket Basic (3,5 jt)</option>
+                        <option value="standard">Paket Standard (3,75 jt)</option>
+                        <option value="premium">Paket Premium (4 jt)</option>
+                    </select>
+    
+                    <!-- jumlah lantai -->
+                    <label for="lantai" class="form-label mt-3">Jumlah Lantai</label>
+                    <input type="number" class="form-control" id="lantai" onchange="calculateTotal()" required>
+    
+                    <!-- total harga -->
+                    <div class="bg-warning mt-3" id="totalPrice"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
 </section>
+@endsection

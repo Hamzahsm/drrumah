@@ -26,6 +26,7 @@
 
   </head>
   <body>
+    @include('partials.top-ads')
     @include('partials.header') <!-- including the file to layout -->
     @include('partials.hero-section') <!-- include the file to layout -->
     @include('partials.counter')

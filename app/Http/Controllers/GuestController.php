@@ -17,12 +17,42 @@ class GuestController extends Controller
 
     /**
      * 
-     * halaman portofolio desain
+     * halaman - halaman
      * 
      */
     public function portofolio()
     {
-        return view('pages.portofolio-desain');
+        return view('pages.portofolio-desain'); 
+    }
+
+    public function hargaJasaDesain()
+    {
+        return view('pages.harga-jasa-desain');
+    }
+
+    public function hargaJasaBangun()
+    {
+        return view('pages.harga-jasa-bangun');
+    }
+
+    public function karir()
+    {
+        return view('pages.karir');
+    }
+
+    public function contactUs()
+    {
+        return view('pages.kontak-kami');
+    }
+
+    public function layananArsitek()
+    {
+        return view('pages.layanan-jasa-arsitek');
+    }
+
+    public function layananBangun()
+    {
+        return view('pages.layanan-jasa-bangun');
     }
 
     /**

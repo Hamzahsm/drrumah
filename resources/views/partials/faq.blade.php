@@ -1,5 +1,5 @@
 <!-- faq -->
-<section class="top-150">
+<section class="top-150" >
     <div class="container">
         <h2 class="mb-5 fw-bold text-center">faq</h2>
         <div class="accordion accordion-flush" id="faqAccordion">

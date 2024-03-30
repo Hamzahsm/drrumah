@@ -36,11 +36,33 @@
 .btn-gradient {
   background : linear-gradient(to right, rgb(4, 133, 219) 0%, rgb(3, 85, 140) 100%);
   color: #fff;
+  cursor: pointer;
 }
 
 .btn-gradient:hover {
   background : linear-gradient(to right, rgb(3, 85, 140) 0%, rgb(4, 133, 219) 100%);
   color: #fff;
+}
+
+.tx-yellow {
+  color: #fff;
+}
+
+.tx-yellow:hover {
+  background-color : yellow;
+  color: #000;
+}
+
+.p-counter {
+  padding-top : 10px;
+  padding-bottom: -10px;
+  padding-left : 5px;
+  padding-right: 5px;
+}
+
+.number-counter
+{
+  font-size: 50px;
 }
 
 
