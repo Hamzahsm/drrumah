@@ -102,3 +102,14 @@ Route::get('karir', [GuestController::class, 'karir'])->name('guest.karir');
 Route::get('kontak-kami', [GuestController::class, 'contactUs'])->name('guest.kontak.kami');
 Route::get('layanan-jasa-desain-arsitek', [GuestController::class, 'layananArsitek'])->name('guest.layanan.jasa.arsitek');
 Route::get('layanan-jasa-bangun', [GuestController::class, 'layananBangun'])->name('guest.layanan.jasa.bangun');
+
+// test simbolic link
+Route::get('/linkstorage', function () { $targetFolder = base_path().'/storage/app/public'; $linkFolder = $_SERVER['DOCUMENT_ROOT'].'/storage'; symlink($targetFolder, $linkFolder); }); 
+
+Route::get('/migrate', function(){
+    Artisan::call('migrate');
+});
+
+Route::get('/config-clear', function(){
+    Artisan::call('config:clear');
+});
