@@ -172,6 +172,7 @@ return [
         RealRashid\SweetAlert\SweetAlertServiceProvider::class, //sweetAlert
         \Conner\Tagging\Providers\TaggingServiceProvider::class, //rtconner/tagsystem
         CyrildeWit\EloquentViewable\EloquentViewableServiceProvider::class, //eloquent-viewable
+        Laravel\Socialite\SocialiteServiceProvider::class, //login with your sosial media
     ])->toArray(),
 
     /*
@@ -188,6 +189,7 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class, //sweetAlert
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class, //login with your sosial media
     ])->toArray(),
 
 ];
