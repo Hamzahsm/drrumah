@@ -65,6 +65,29 @@
   font-size: 50px;
 }
 
+/**
+ tambahan 2-4-2024
+*/
+.menu-hover {
+  background : #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.menu-hover:hover {
+  background : linear-gradient(to right, rgb(4, 133, 219) 0%, rgb(3, 85, 140) 100%);
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu-warning {
+  color : #fff;
+}
+
+.menu-warning:hover {
+  color : #fcf003;
+}
+
 
 /**
 *
