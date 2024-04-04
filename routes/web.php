@@ -102,6 +102,18 @@ Route::get('karir', [GuestController::class, 'karir'])->name('guest.karir');
 Route::get('kontak-kami', [GuestController::class, 'contactUs'])->name('guest.kontak.kami');
 Route::get('layanan-jasa-desain-arsitek', [GuestController::class, 'layananArsitek'])->name('guest.layanan.jasa.arsitek');
 Route::get('layanan-jasa-bangun', [GuestController::class, 'layananBangun'])->name('guest.layanan.jasa.bangun');
+//tambahan 3-4-2024
+Route::get('tentang-kami', [GuestController::class, 'tentangKami'])->name('guest.tentang.kami');
+Route::get('blog', [GuestController::class, 'blog'])->name('guest.blog');
+Route::get('testimoni', [GuestController::class, 'testimoni'])->name('guest.testimoni');
+Route::get('projek', [GuestController::class, 'projek'])->name('guest.projek');
+Route::get('projek/pak-agung-dau-malang', [GuestController::class, 'projekAgung'])->name('guest.projek.user.agung'); 
+
+//tambahan 4-4-2024
+Route::get('projek/pak-husni-merjosari-malang', [GuestController::class, 'projekHusni'])->name('husni.malang');
+Route::get('projek/palmerah', [GuestController::class, 'palmerah'])->name('user.projek.palmerah');
+Route::get('projek/temas-batu', [GuestController::class, 'temasBatu'])->name('projek.temas.batu');
+Route::get('projek/wajak-kabupaten-malang', [GuestController::class, 'wajak'])->name('projek.wajak.kabupaten.malang');
 
 // test simbolic link
 Route::get('/linkstorage', function () { $targetFolder = base_path().'/storage/app/public'; $linkFolder = $_SERVER['DOCUMENT_ROOT'].'/storage'; symlink($targetFolder, $linkFolder); }); 

@@ -78,4 +78,48 @@
             </div>
         </div>
     </section>
+    
+    <!-- video -->
+    {{-- <div class="container"> --}}
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                {{-- <iframe src="https://drive.google.com/file/d/1Yk_QdQUR9W8IcRAWntr8Eo4iYJKOr0AS/preview"loading="lazy" class="card-img-top"></iframe> --}}
+                <iframe src="https://drive.google.com/file/d/1Yk_QdQUR9W8IcRAWntr8Eo4iYJKOr0AS/preview" width="640" height="480" loading="lazy" class="card-img-top"></iframe>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    {{-- </div> --}}
 @endsection

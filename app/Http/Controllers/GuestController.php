@@ -55,6 +55,54 @@ class GuestController extends Controller
         return view('pages.layanan-jasa-bangun');
     }
 
+    //tambahan 3-4-2024
+    public function tentangKami()
+    {
+        return view('pages.tentang-kami');
+    }
+
+    public function blog()
+    {
+        $posts = Post::with('views')->paginate(5);
+        return view('pages.blog', compact('posts'));
+    }
+
+    public function testimoni()
+    {
+        return view('pages.testimoni');
+    }
+
+    public function projek()
+    {
+        return view('project.index');
+    }
+
+    public function projekAgung()
+    {
+        return view('project.agung-dau');
+    }
+
+    //tambahan 4-4-2024
+    public function projekHusni()
+    {
+        return view('project.husni-malang');
+    }
+
+    public function palmerah()
+    {
+        return view('project.palmerah');
+    }
+
+    public function temasBatu()
+    {
+        return view('project.temas-batu');
+    }
+
+    public function wajak()
+    {
+        return view('project.wajak');
+    }
+
     /**
      * 
      * halaman artikel show 

@@ -20,7 +20,7 @@
                     </li>
                     <hr>
                     <li class="nav-item">
-                        <a href="#" class="nav-link menu-warning"><i class="bi bi-record"></i> Tentang Kami</a>
+                        <a href="{{ route('guest.tentang.kami') }}" class="nav-link menu-warning"><i class="bi bi-record"></i> Tentang Kami</a>
                     </li>
                     <hr>
                     <li class="nav-item">
@@ -55,15 +55,15 @@
                     </li>
                     <hr>
                     <li class="nav-item">
-                        <a href="#" class="nav-link menu-warning"><i class="bi bi-record"></i> Blog</a>
+                        <a href="{{ route('guest.blog') }}" class="nav-link menu-warning"><i class="bi bi-record"></i> Blog</a>
                     </li>
                     <hr>
                     <li class="nav-item">
-                        <a href="#" class="nav-link menu-warning"><i class="bi bi-record"></i> Karir</a>
+                        <a href="{{ route('guest.karir') }}" class="nav-link menu-warning"><i class="bi bi-record"></i> Karir</a>
                     </li>
                     <hr>
                     <li class="nav-item">
-                        <a href="#" class="nav-link menu-warning"><i class="bi bi-record"></i> Kontak Kami</a>
+                        <a href="{{ route('guest.kontak.kami') }}" class="nav-link menu-warning"><i class="bi bi-record"></i> Kontak Kami</a>
                     </li>
                     <hr>
                     <li class="nav-item">
@@ -71,10 +71,10 @@
                             <i class="bi bi-record"></i> Portofolio 
                         </a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item p-3 menu-hover border-bottom" href="#"><i class="bi bi-arrow-right-short"></i> Projek</a></li>
-                            <li><a class="dropdown-item p-3 menu-hover" href="#"><i class="bi bi-arrow-right-short"></i> Testimoni</a></li>
+                            <li><a class="dropdown-item p-3 menu-hover border-bottom" href="{{ route('guest.projek') }}"><i class="bi bi-arrow-right-short"></i> Projek</a></li>
+                            <li><a class="dropdown-item p-3 menu-hover" href="{{ route('guest.testimoni') }}"><i class="bi bi-arrow-right-short"></i> Testimoni</a></li>
                           </ul>
-                    </li>
+                    </li> 
                     <hr>
                     <li class="nav-item">
                         <a href="{{ route('login') }}" class="nav-link menu-warning"><i class="bi bi-person"></i> Login</a>
